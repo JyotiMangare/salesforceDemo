@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="WireDecorator Property Exmp">
+        <template for:each={Accounts.data}
+        for:item="acc">
+     <p key={acc.id}>{acc.Name}{acc.phone} </p>
+     </template>
+    </lightning-card>
+</template>
+
+ 
